@@ -10,4 +10,16 @@ Progetto di una Calcolatrice Scientifica basata su Stack e con variabili
     <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/2"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/2?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
   </a>
   </li>
+  <li>
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/3"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/3?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+  </a>
+  </li>
+  <li>
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/4"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/4?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+  </a>
+  </li>
+  <li>
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/5"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/5?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+  </a>
+  </li>
 </ul>
