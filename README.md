@@ -30,7 +30,7 @@ Progetto Java di una Calcolatrice Scientifica basata su Stack da realizzare per 
 
 
 ## 💽 About the Project
-Il Progetto prevede la realizzazione di una Calcolatrice Scientifica basata sullo Stack che offra, oltre alle operazioni di base di una calcolatrice saranno anche fornite operazioni speciali sullo Stack e la possibilità di conservare valori in variabili.
+Il Progetto prevede la realizzazione di una Calcolatrice Scientifica basata sullo Stack che offra, oltre alle operazioni di base di una calcolatrice, anche operazioni speciali sullo Stack e la possibilità di conservare valori in variabili.
 ## 💥 Features
 
 - interfaccia grafica
