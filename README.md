@@ -15,15 +15,15 @@ Progetto Java di una Calcolatrice Scientifica basata su Stack da realizzare per 
   </a>
   </li>
   <li>
-    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/3"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/3?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/3"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/3?style=for-the-badge&color=rgb(78%2C%20182%2C%20181)" />
   </a>
   </li>
   <li>
-    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/4"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/4?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/4"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/4?style=for-the-badge&color=rgb(116%2C%2043%2C%2073)" />
   </a>
   </li>
   <li>
-    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/5"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/5?style=for-the-badge&color=rgb(28%2C%2020%2C%2044)" />
+    <a href = "https://github.com/francescopiocirillo/StackBasedCalculator_gruppo14/milestone/5"><img src="https://img.shields.io/github/milestones/progress-percent/francescopiocirillo/StackBasedCalculator_gruppo14/5?style=for-the-badge&color=rgb(57%2C%20107%2C%20168)" />
   </a>
   </li>
 </ul>
