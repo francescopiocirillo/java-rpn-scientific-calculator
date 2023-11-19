@@ -53,6 +53,9 @@ Il Progetto prevede la realizzazione di una Calcolatrice Scientifica basata sull
 * ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 * ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 * ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+**Testing effettuato con l'ausilio di JUnit**
+
 ## 🚀 About Me
 Siamo il Gruppo 14 dell'esame di Ingegneria del Software del terzo anno di Ingegneria Informatica presso l'Università degli Studi di Salerno.
 
