@@ -9,6 +9,8 @@ import java.util.Stack;
 
 import Eccezioni.StackPienoException;
 import Eccezioni.StackVuotoException;
+import Eccezioni.InvalidOrderException;
+import Eccezioni.TopElementInvalidException;
 
 /**
  *
@@ -26,6 +28,73 @@ public class Calculator {
         stack = new Stack<>();
         capacity = 64;
     } 
+
+    public void calcola() throws InvalidOrderException {
+        Stack<String> stackSupporto = new Stack<>();
+        int size = stack.size();
+        for( int i = 0; i < size; i++ ) {
+            stackSupporto.push( stack.pop() );
+        }
+
+        while( !stackSupporto.empty() ) {
+            String element = stackSupporto.pop();
+            boolean isOperator = isOperator(element);
+
+            if( isOperator(element) ) {
+                if( isUnaryOperator(element) ) {
+                    if( stack.empty() ) {
+                        throw new InvalidOrderException();
+                    }
+                    else {
+                        String operando = stack.pop();
+                        Complex c = Complex.parseComplex(operando);
+                        if( element.equals("r") ) {
+                            c = Complex.radice(c);
+                        }
+                        else {
+                            c = Complex.invertiSegno(c);
+                        }
+                        stack.push( c.toString() );
+                    }
+                }
+                else {
+                    if( stack.size() < 2 ) {
+                        throw new InvalidOrderException();
+                    }
+                    else {
+                        String operando1 = stack.pop();
+                        String operando2 = stack.pop();
+                        Complex c1 = Complex.parseComplex(operando1);
+                        Complex c2 = Complex.parseComplex(operando2);
+                        Complex res;
+                        switch (element) {
+                            case "+":
+                                res = Complex.somma(c1, c2);
+                                stack.push(res.toString());
+                                break;
+                            case "-":
+                                res = Complex.sottrazione(c1, c2);
+                                stack.push(res.toString());
+                                break;
+                            case "*":
+                                res = Complex.prodotto(c1, c2);
+                                stack.push(res.toString());
+                                break;
+                            case "/":
+                                res = Complex.divisione(c1, c2);
+                                stack.push(res.toString());
+                                break;
+                            default:
+                                throw new InvalidOrderException();
+                        }
+                    }
+                }
+            }
+            else {
+                stack.push(element);
+            }
+        }
+    }
 
 //  metodi per le stack operations
     public void push( String c ) throws StackPienoException {
@@ -92,4 +161,38 @@ public class Calculator {
         return false;
     }
 //  end_supporto
+
+    //  metodi per le variabili
+    public void loadVariable( int variabile ) throws StackVuotoException, TopElementInvalidException {
+        if( stack.empty() )
+            throw new StackVuotoException();
+        if( isOperator(stack.peek()) )
+            throw new TopElementInvalidException();
+        variabili[variabile] = Complex.parseComplex(stack.pop());
+    }
+
+    public void storeVariable( int variabile ) throws StackPienoException {
+        if( stack.size() >= capacity )
+            throw new StackPienoException();
+        stack.push(variabili[variabile].toString());
+    }
+
+    public void addVariable( int variabile ) throws StackVuotoException, TopElementInvalidException {
+        if( stack.empty() )
+            throw new StackVuotoException();
+        if( isOperator(stack.peek()) )
+            throw new TopElementInvalidException();
+        Complex c = Complex.parseComplex( stack.pop() );
+        variabili[variabile] = Complex.somma(variabili[variabile], c);
+    }
+
+    public void subtractVariable( int variabile ) throws StackVuotoException, TopElementInvalidException {
+        if( stack.empty() )
+            throw new StackVuotoException();
+        if( isOperator(stack.peek()) )
+            throw new TopElementInvalidException();
+        Complex c = Complex.parseComplex( stack.pop() );
+        variabili[variabile] = Complex.sottrazione(variabili[variabile], c);
+    }
+//  end_metodi per le variabili
 }
