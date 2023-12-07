@@ -8,19 +8,26 @@ import javafx.stage.Stage;
 
 
 /**
- * JavaFX StackBasedCalculator
+ * JavaFX App
  */
 public class StackBasedCalculator extends Application {
 
     @Override
     public void start(Stage stage) {
-        String javaVersion = SystemInfo.javaVersion();
-        String javafxVersion = SystemInfo.javafxVersion();
+        try {
+            Calculator calculator = new Calculator();
+            BaseView root = new BaseView();
+            CalculatorController calculatorController = new CalculatorController(calculator, root);
 
-        Label label = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-        Scene scene = new Scene(new StackPane(label), 640, 480);
-        stage.setScene(scene);
-        stage.show();
+            Scene scene = new Scene(root, 550, 250);
+
+            stage.setTitle("MyCalculator");
+            stage.setScene(scene);
+            stage.show();
+        } catch(Exception e) {
+            System.out.println("La causa è: ");
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
