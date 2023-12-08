@@ -13,7 +13,7 @@ import javafx.scene.layout.HBox;
 
 /**
  *
- * @author franc
+ * @author Gruppo14
  */
 public class CalculatorView extends HBox{          /*la HBox pone gli elementi in orizzontale*/
     
