@@ -17,20 +17,32 @@ import javafx.scene.layout.VBox;
  */
 public class BaseView extends VBox {
     
-    public TextField txtArea;
-    public Button [] keys;
+    private TextField txtArea;
+    private Button [] keys;
+    
     private final int NUMKEYS = 25;
     private final int COLUMNS = 5;
-    
+
     public BaseView() {
         txtArea = new TextField();
         this.setAlignment(Pos.CENTER);
         this.setSpacing(10);
         
         this.getChildren().add(txtArea);
+        txtArea.setMaxWidth(500);
+        txtArea.setEditable(false);
+        
         keys = new Button[NUMKEYS];
         initButtons();
         placeButtons();
+    }
+
+    public Button getKey( int index ) {
+        return keys[index];
+    }
+
+    public TextField getTxtArea() {
+        return txtArea;
     }
     
     private void initButtons() {
@@ -42,35 +54,35 @@ public class BaseView extends VBox {
         
         //set del testo legato ai bottoni
         //tastierino numerico
-        keys[5].setText("7");
-        keys[6].setText("8");
-        keys[7].setText("9");
-        keys[10].setText("4");
-        keys[11].setText("5");
-        keys[12].setText("6");
-        keys[15].setText("1");
-        keys[16].setText("2");
-        keys[17].setText("3");
-        keys[21].setText("0");
-        keys[20].setText(".");
-        keys[1].setText("CANC");
+        keys[SETTE.getButton()].setText("7");
+        keys[OTTO.getButton()].setText("8");
+        keys[NOVE.getButton()].setText("9");
+        keys[QUATTRO.getButton()].setText("4");
+        keys[CINQUE.getButton()].setText("5");
+        keys[SEI.getButton()].setText("6");
+        keys[UNO.getButton()].setText("1");
+        keys[DUE.getButton()].setText("2");
+        keys[TRE.getButton()].setText("3");
+        keys[ZERO.getButton()].setText("0");
+        keys[PUNTO.getButton()].setText(".");
+        keys[CANC.getButton()].setText("CANC");
         
         //operazioni di base
-        keys[13].setText("×");
-        keys[14].setText("±");
-        keys[18].setText("-");
-        keys[19].setText("√");
-        keys[23].setText("+");
-        keys[24].setText("÷");
-        keys[22].setText("=");
+        keys[PRODOTTO.getButton()].setText("×");
+        keys[INVERTI_SEGNO.getButton()].setText("±");
+        keys[SOTTRAZIONE.getButton()].setText("-");
+        keys[RADICE.getButton()].setText("√");
+        keys[SOMMA.getButton()].setText("+");
+        keys[DIVISIONE.getButton()].setText("÷");
+        keys[UGUALE.getButton()].setText("=");
         
         //operazioni sullo stack
-        keys[0].setText("ENTER");
-        keys[2].setText("CLEAR");
-        keys[3].setText("DUP");
-        keys[4].setText("DROP");
-        keys[8].setText("SWAP");
-        keys[9].setText("OVER");
+        keys[ENTER.getButton()].setText("ENTER");
+        keys[CLEAR.getButton()].setText("CLEAR");
+        keys[DUP.getButton()].setText("DUP");
+        keys[DROP.getButton()].setText("DROP");
+        keys[SWAP.getButton()].setText("SWAP");
+        keys[OVER.getButton()].setText("OVER");
     }
     
     private void placeButtons() {

@@ -18,15 +18,10 @@ import javafx.scene.layout.VBox;
 /*si tratta del View della parte inerenti le variabili*/
 public class VariablesView extends GridPane {
     
-    public Button[] keys;
+    private Button[] keys;
     
     private final int COLUMNS=4;            /*le colonne che vogliamo ottenere*/
     private final int CHAROP=30;       /*i bottoni totali di questa sezione (operatori+variabili)*/
-    
-    private final int MAGGIORE=0;
-    private final int MINORE=1;
-    private final int SOMMAV=2;
-    private final int SOTTRAZIONEV=3;
     
     public VariablesView() {
         super();
@@ -36,6 +31,10 @@ public class VariablesView extends GridPane {
         /*invocando initVarButtons questo mi consentirà di inizializzare i bottoni*/
         initVarButtons();
         placeVarButtons();        
+    }
+
+    public Button getKey( int index ) {
+        return keys[index];
     }
     
     /*istanziamo i pulsanti con questo metodo*/
@@ -48,10 +47,10 @@ public class VariablesView extends GridPane {
         }
         
         /*fuori dal for scrivo sui bottoni rimanenti che cosa indicano*/
-        keys[MAGGIORE].setText(">");
-        keys[MINORE].setText("<");
-        keys[SOMMAV].setText("+");
-        keys[SOTTRAZIONEV].setText("-");
+        keys[MAGGIORE.getButton()].setText(">");
+        keys[MINORE.getButton()].setText("<");
+        keys[SOMMAV.getButton()].setText("+");
+        keys[SOTTRAZIONEV.getButton()].setText("-");
     }  
     
     private void placeVarButtons() {

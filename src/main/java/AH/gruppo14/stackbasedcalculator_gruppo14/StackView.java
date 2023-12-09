@@ -17,7 +17,7 @@ import javafx.scene.layout.HBox;
 public class StackView extends HBox {
     
     private final ListView<String> listView = new ListView<>();
-    public Stack<String> stack;
+    private Stack<String> stack;
     
     public StackView(Stack<String> stack) {
         this.stack = stack;
