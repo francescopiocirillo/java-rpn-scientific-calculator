@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AH.gruppo14.stackbasedcalculator_gruppo14;
+package AH.gruppo14.stackbasedcalculator_gruppo14_ref;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -42,6 +42,14 @@ public class BaseView extends VBox {
         keys = new Button[NUMKEYS];
         initButtons();
         placeButtons();
+    }
+
+    public Button getKey( int index ) {
+        return keys[index];
+    }
+
+    public TextField getTxtArea() {
+        return txtArea;
     }
     
     private void initButtons() {
