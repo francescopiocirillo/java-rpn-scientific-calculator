@@ -38,7 +38,6 @@ public class Calculator {
 
         while( !stackSupporto.empty() ) {
             String element = stackSupporto.pop();
-            boolean isOperator = isOperator(element);
 
             if( isOperator(element) ) {
                 if( isUnaryOperator(element) ) {

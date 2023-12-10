@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.065" tests="46" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.072" tests="46" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185 2023-12-10T20-22-34_626-jvmRun1 surefire3017652708260578475tmp surefire_05975751663763805938tmp"/>
+    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire932321762570953111\surefirebooter4998541214977598940.jar C:\Users\franc\AppData\Local\Temp\surefire932321762570953111 2023-12-10T20-27-46_116-jvmRun1 surefire1454820425856932075tmp surefire_02113668767653507953tmp"/>
     <property name="test" value="AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test"/>
     <property name="surefire.test.class.path" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\test-classes;C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\classes;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire932321762570953111\surefirebooter4998541214977598940.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,50 +63,50 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testIsOperator1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.015"/>
+  <testcase name="testIsOperator1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.017"/>
   <testcase name="testIsOperator2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testIsOperator3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testIsOperator3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testIsUnaryOperator1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testIsUnaryOperator2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testIsUnaryOperator2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testIsUnaryOperator3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testDrop1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.002"/>
-  <testcase name="testDrop2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testDrop2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testDrop3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testOver1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testOver2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testOver2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testOver3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testOver4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testOver5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testPeek1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testPeek2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testOver5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPeek1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testPeek2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.003"/>
   <testcase name="testPeek3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testPush1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPush1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testPush2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testPush3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testPush3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testSize1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testSize2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSize2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testSize3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testSwap1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testSwap2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSwap1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testSwap2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testSwap3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testSwap4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testSwap5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testDup1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testDup2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testDup2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testDup3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testPop1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPop1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testPop2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testPop3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testCalcola1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testCalcola2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPop3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testCalcola1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.003"/>
+  <testcase name="testCalcola2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.002"/>
   <testcase name="testCalcola3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testCalcola4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
-  <testcase name="testCalcola5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testCalcola4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testCalcola5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testCalcola6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
   <testcase name="testClear1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testClear2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testClear2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testClear3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testEmpty1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testEmpty1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
   <testcase name="testEmpty2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
-  <testcase name="testEmpty3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testEmpty3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
 </testsuite>
