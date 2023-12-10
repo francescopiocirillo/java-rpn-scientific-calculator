@@ -18,6 +18,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class CalculatorVariablesTest {
     
+    private CalculatorVariables instance;
+
     public CalculatorVariablesTest() {
     }
     
@@ -31,6 +33,7 @@ public class CalculatorVariablesTest {
     
     @BeforeEach
     public void setUp() {
+        instance = new CalculatorVariables();
     }
     
     @AfterEach
@@ -40,58 +43,118 @@ public class CalculatorVariablesTest {
     /**
      * Test of setVariable method, of class CalculatorVariables.
      */
+    /**
+     * TCL-1
+     */
     @Test
-    public void testSetVariable() {
-        System.out.println("setVariable");
+    public void testSetVariable1() {
+        System.out.println("setVariable1");
         int variabile = 0;
-        String topElement = "";
-        CalculatorVariables instance = new CalculatorVariables();
+        String topElement = "j55";
         instance.setVariable(variabile, topElement);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(new Complex(0, 55).toString(), instance.getVariable(0));
     }
-
+    
+    /**
+     * TCL-2
+     */
+    @Test
+    public void testSetVariable2() {
+        System.out.println("setVariable2");
+        int variabile = 0;
+        String varVal = "22.4+j6";        
+        String topElement = "9+j5";
+        instance.setVariable(variabile, varVal);
+        instance.setVariable(variabile, topElement);
+        assertEquals(new Complex(9, 5).toString(), instance.getVariable(0));
+    }
+    
     /**
      * Test of getVariable method, of class CalculatorVariables.
      */
+    /**
+     * TCGV-1
+     */
     @Test
-    public void testGetVariable() {
-        System.out.println("getVariable");
+    public void testGetVariable1() {
+        System.out.println("getVariable1");
         int variabile = 0;
-        CalculatorVariables instance = new CalculatorVariables();
-        String expResult = "";
-        String result = instance.getVariable(variabile);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        String topElement = "0.25";
+        instance.setVariable(variabile, topElement);
+        assertEquals(new Complex(0.25, 0).toString(), instance.getVariable(0));
     }
-
+    
+    /**
+     * TCGV-2
+     */
+    @Test
+    public void testGetVariable2() {
+        System.out.println("getVariable2");
+        int variabile = 0;
+        String topElement = "9.3-j2.0001";
+        instance.setVariable(variabile, topElement);
+        assertEquals(new Complex(9.3, -2.0001).toString(), instance.getVariable(0));
+    }
+    
     /**
      * Test of addVariable method, of class CalculatorVariables.
      */
+    /**
+     * TCAV-1
+     */
     @Test
-    public void testAddVariable() {
-        System.out.println("addVariable");
+    public void testAddVariable1() {
+        System.out.println("addVariable1");
         int variabile = 0;
-        String topElement = "";
-        CalculatorVariables instance = new CalculatorVariables();
+        String varVal = "0";
+        String topElement = "j3.5";
+        instance.setVariable(variabile, varVal);
         instance.addVariable(variabile, topElement);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(new Complex(0, 3.5).toString(), instance.getVariable(0));
     }
-
+    
+    /**
+     * TCAV-2
+     */
+    @Test
+    public void testAddVariable2() {
+        System.out.println("addVariable2");
+        int variabile = 0;
+        String varVal = "39.3+j20";
+        String topElement = "99.4562";
+        instance.setVariable(variabile, varVal);
+        instance.addVariable(variabile, topElement);
+        assertEquals(new Complex(138.7562, 20).toString(), instance.getVariable(0));
+    }
+    
     /**
      * Test of subtractVariable method, of class CalculatorVariables.
      */
+    /**
+     * TCSV-1
+     */
     @Test
-    public void testSubtractVariable() {
-        System.out.println("subtractVariable");
+    public void testSubtractVariable1() {
+        System.out.println("subtractVariable1");
         int variabile = 0;
-        String topElement = "";
-        CalculatorVariables instance = new CalculatorVariables();
+        String varVal = "0";        
+        String topElement = "63.4+j7.2154";
+        instance.setVariable(variabile, varVal);
         instance.subtractVariable(variabile, topElement);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(new Complex(-63.4, -7.2154).toString(), instance.getVariable(0));
     }
     
+    /**
+     * TCSV-2
+     */
+    @Test
+    public void testSubtractVariable2() {
+        System.out.println("subtractVariable2");
+        int variabile = 0;
+        String varVal = "2+j6.99";        
+        String topElement = "5";
+        instance.setVariable(variabile, varVal);
+        instance.subtractVariable(variabile, topElement);
+        assertEquals(new Complex(-3, 6.99).toString(), instance.getVariable(0));
+    }
 }
