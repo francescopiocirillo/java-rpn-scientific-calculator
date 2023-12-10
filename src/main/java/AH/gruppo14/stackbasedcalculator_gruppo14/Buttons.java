@@ -6,7 +6,7 @@
 package AH.gruppo14.stackbasedcalculator_gruppo14;
 
 /**
- *
+ * Questa classe è una enumerazione utilizzara per assegnare ad ogni pulsante della calcolatrice un indice
  * @author Gruppo14
  */
 public enum Buttons {
@@ -42,10 +42,18 @@ public enum Buttons {
 
     private final int button;
 
+    /**
+     * Il costruttore serve ad inizializzare il valore intero (indice) associato ad ogni istanza dell'enumerazione
+     * @param button 
+     */
     Buttons(int button) {
         this.button = button;
     }
 
+    /**
+     * Questo metodo restituisce l'indice associato ad un'istanza dell'enumerazione
+     * @return l'indice associato all'istanza chiamante
+     */
     public int getButton() {
         return button;
     }

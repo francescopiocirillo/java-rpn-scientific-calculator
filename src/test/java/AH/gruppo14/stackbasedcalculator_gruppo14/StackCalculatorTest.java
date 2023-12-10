@@ -5,12 +5,16 @@
  */
 package AH.gruppo14.stackbasedcalculator_gruppo14;
 
-import java.util.Stack;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
+import Eccezioni.StackPienoException;
+import Eccezioni.StackVuotoException;
+import Eccezioni.TopElementInvalidException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -19,6 +23,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class StackCalculatorTest {
     
+    private StackCalculator instance;
+
     public StackCalculatorTest() {
     }
     
@@ -32,232 +38,210 @@ public class StackCalculatorTest {
     
     @BeforeEach
     public void setUp() {
+        instance = new StackCalculator();
     }
     
     @AfterEach
     public void tearDown() {
     }
-
+    
     /**
-     * Test of getStack method, of class StackCalculator.
+     * Test of loadVariable method, of class CalculatorStack.
+     */
+    /**
+     * TLV-1
+     * @throws StackVuotoException 
      */
     @Test
-    public void testGetStack() {
-        System.out.println("getStack");
-        StackCalculator instance = new StackCalculator();
-        Stack<String> expResult = null;
-        Stack<String> result = instance.getStack();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testLoadVariable1() throws StackVuotoException{
+        System.out.println("loadVariable1");
+        assertThrows(StackVuotoException.class, () ->{
+            instance.loadVariable(0);
+        });
     }
-
+    
     /**
-     * Test of calcola method, of class StackCalculator.
+     * TCLV-2
+     * @throws StackPienoException mai secondo il normale funzionamento
+     * @throws StackVuotoException mai secondo il normale funzionamento
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
      */
     @Test
-    public void testCalcola() throws Exception {
-        System.out.println("calcola");
-        StackCalculator instance = new StackCalculator();
-        instance.calcola();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testLoadVariable2() throws StackPienoException, StackVuotoException, TopElementInvalidException{
+        System.out.println("loadVariable2");
+        String num="9+j5";
+        instance.push(num);
+        instance.loadVariable(0);
+        assertEquals("9.0000+j5.0000", instance.getVariable(0));
     }
-
+    
     /**
-     * Test of push method, of class StackCalculator.
+     * TCLV-3
+     * @throws StackPienoException
+     * @throws StackVuotoException 
      */
     @Test
-    public void testPush() throws Exception {
-        System.out.println("push");
-        String c = "";
-        StackCalculator instance = new StackCalculator();
-        instance.push(c);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of pop method, of class StackCalculator.
-     */
-    @Test
-    public void testPop() throws Exception {
-        System.out.println("pop");
-        StackCalculator instance = new StackCalculator();
-        String expResult = "";
-        String result = instance.pop();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of peek method, of class StackCalculator.
-     */
-    @Test
-    public void testPeek() throws Exception {
-        System.out.println("peek");
-        StackCalculator instance = new StackCalculator();
-        String expResult = "";
-        String result = instance.peek();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of empty method, of class StackCalculator.
-     */
-    @Test
-    public void testEmpty() {
-        System.out.println("empty");
-        StackCalculator instance = new StackCalculator();
-        boolean expResult = false;
-        boolean result = instance.empty();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of size method, of class StackCalculator.
-     */
-    @Test
-    public void testSize() {
-        System.out.println("size");
-        StackCalculator instance = new StackCalculator();
-        int expResult = 0;
-        int result = instance.size();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of clear method, of class StackCalculator.
-     */
-    @Test
-    public void testClear() {
-        System.out.println("clear");
-        StackCalculator instance = new StackCalculator();
-        instance.clear();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of drop method, of class StackCalculator.
-     */
-    @Test
-    public void testDrop() {
-        System.out.println("drop");
-        StackCalculator instance = new StackCalculator();
-        instance.drop();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of dup method, of class StackCalculator.
-     */
-    @Test
-    public void testDup() {
-        System.out.println("dup");
-        StackCalculator instance = new StackCalculator();
-        instance.dup();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of swap method, of class StackCalculator.
-     */
-    @Test
-    public void testSwap() {
-        System.out.println("swap");
-        StackCalculator instance = new StackCalculator();
-        instance.swap();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of over method, of class StackCalculator.
-     */
-    @Test
-    public void testOver() {
-        System.out.println("over");
-        StackCalculator instance = new StackCalculator();
-        instance.over();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getVariable method, of class StackCalculator.
-     */
-    @Test
-    public void testGetVariable() {
-        System.out.println("getVariable");
-        int variable = 0;
-        StackCalculator instance = new StackCalculator();
-        String expResult = "";
-        String result = instance.getVariable(variable);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of loadVariable method, of class StackCalculator.
-     */
-    @Test
-    public void testLoadVariable() throws Exception {
-        System.out.println("loadVariable");
-        int variabile = 0;
-        StackCalculator instance = new StackCalculator();
-        instance.loadVariable(variabile);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testLoadVariable3() throws StackPienoException, StackVuotoException{
+        System.out.println("loadVariable3");
+        String op = "+";
+        instance.push(op);
+        assertThrows(TopElementInvalidException.class, ()->{
+            instance.loadVariable(0);
+        });
     }
 
     /**
      * Test of storeVariable method, of class StackCalculator.
      */
+    /**
+     * TCSTV-1
+     * @throws StackPienoException mai secondo il funzionamento normale.
+     * @throws StackVuotoException mai secondo il funzionamento normale.
+     */
     @Test
-    public void testStoreVariable() throws Exception {
-        System.out.println("storeVariable");
+    public void testStoreVariable1() throws StackPienoException, StackVuotoException {
+        System.out.println("storeVariable1");
         int variabile = 0;
-        StackCalculator instance = new StackCalculator();
         instance.storeVariable(variabile);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals("0", instance.peek());
     }
 
     /**
-     * Test of addVariable method, of class StackCalculator.
+     * TCSTV-2
+     * @throws StackPienoException mai secondo il funzionamento normale.
+     * @throws StackVuotoException mai secondo il funzionamento normale.
      */
     @Test
-    public void testAddVariable() throws Exception {
-        System.out.println("addVariable");
+    public void testStoreVariable2() throws StackPienoException, StackVuotoException {
+        System.out.println("storeVariable2");
         int variabile = 0;
-        StackCalculator instance = new StackCalculator();
+        /** creo stack mediamente pieno */
+        for(int i = 1; i <= 32/2 ; i++)
+            instance.push(i +  "+j" + i);
+        
+        instance.storeVariable(variabile);
+        assertEquals("0", instance.peek());
+    }
+
+    /**
+     * TCSTV-3
+     * @throws StackPienoException mai secondo il funzionamento normale.
+     * @throws StackVuotoException mai secondo il funzionamento normale.
+     */
+    @Test
+    public void testStoreVariable3() throws StackPienoException, StackVuotoException {
+        System.out.println("storeVariable3");
+        int variabile = 0;
+        /** creo stack pieno */
+        for(int i = 1; i <= 32; i++)
+           instance.push(i +  "+j" + i);
+        
+        assertThrows(StackPienoException.class, () -> {
+            instance.storeVariable(variabile);
+        });
+
+    }
+    
+    /**
+     * Test of addVariable method, of class StackCalculator.
+     */
+    /**
+     * TCADV-1
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     */
+    @Test
+    public void testAddVariable1() throws StackVuotoException, TopElementInvalidException {
+        System.out.println("addVariable1");
+        int variabile = 0;
+        assertThrows(StackVuotoException.class, () -> {
+            instance.addVariable(variabile);
+        });
+    }
+
+    /**
+     * TCADV-2
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     * @throws StackPienoException mai secondo il normale funzionamento
+     */
+    @Test
+    public void testAddVariable2() throws StackVuotoException, TopElementInvalidException, StackPienoException {
+        System.out.println("addVariable2");
+        int variabile = 0;
+        instance.push("3");
         instance.addVariable(variabile);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals("3.0000", instance.getVariable(0));
+    }
+
+    /**
+     * TCADV-3
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     * @throws StackPienoException mai secondo il normale funzionamento
+     */
+    @Test
+    public void testAddVariable3() throws StackVuotoException, TopElementInvalidException, StackPienoException {
+        System.out.println("addVariable3");
+        int variabile = 0;
+        instance.push("√");
+        assertThrows(TopElementInvalidException.class, () -> {
+            instance.addVariable(variabile);
+        });
     }
 
     /**
      * Test of subtractVariable method, of class StackCalculator.
      */
+    /**
+     * TCSUV-1
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     */
     @Test
-    public void testSubtractVariable() throws Exception {
-        System.out.println("subtractVariable");
+    public void testSubtractVariable1() throws StackVuotoException, TopElementInvalidException {
+        System.out.println("subtractVariable1");
         int variabile = 0;
-        StackCalculator instance = new StackCalculator();
+        assertThrows(StackVuotoException.class, () -> {
+            instance.subtractVariable(variabile);
+        });
+    }
+
+    /**
+     * TCSUV-2
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     * @throws StackPienoException mai secondo il normale funzionamento
+     */
+    @Test
+    public void testSubtractVariable2() throws StackVuotoException, TopElementInvalidException, StackPienoException {
+        System.out.println("subtractVariable2");
+        int variabile = 0;
+        instance.push("63.4+j7.2154");
         instance.subtractVariable(variabile);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals("-63.4000-j7.2154", instance.getVariable(0));
+    }
+
+    /**
+     * TCSUV-3
+     * 
+     * @throws StackVuotoException se il test va a buon fine
+     * @throws TopElementInvalidException mai secondo il normale funzionamento
+     * @throws StackPienoException mai secondo il normale funzionamento
+     */
+    @Test
+    public void testSubtractVariable3() throws StackVuotoException, TopElementInvalidException, StackPienoException {
+        System.out.println("subtractVariable3");
+        int variabile = 0;
+        instance.push("±");
+        assertThrows(TopElementInvalidException.class, () -> {
+            instance.subtractVariable(variabile);
+        });
     }
     
 }
