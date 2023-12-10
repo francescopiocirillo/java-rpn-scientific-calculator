@@ -1,405 +1,112 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="46" failures="46" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.251" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.061" tests="46" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
-    <property name="java.vm.version" value="25.381-b09"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IT"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="test" value="AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14"/>
-    <property name="java.runtime.version" value="1.8.0_381-b09"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\franc\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 11"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;C:\Users\franc\.dotnet\tools;C:\intelFPGA_lite\22.1std\questa_fse\win64;C:\Users\franc\AppData\Local\GitHubDesktop\bin;."/>
-    <property name="maven.conf" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\franc"/>
-    <property name="user.timezone" value="Europe/Berlin"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="franc"/>
-    <property name="java.class.path" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-1.8\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.4\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="it"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_381"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.maintenance.version" value="5"/>
-    <property name="maven.home" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\test-classes;C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\classes;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar C:\Users\franc\AppData\Local\Temp\surefire461056096107225613 2023-12-10T20-05-57_410-jvmRun1 surefire324212904152902695tmp surefire_03769651989279775404tmp"/>
+    <property name="test" value="AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test"/>
+    <property name="surefire.test.class.path" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\test-classes;C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\classes;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\franc"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-1.8\jre"/>
+    <property name="basedir" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_381-b09"/>
+    <property name="user.name" value="franc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\franc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\franc\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_381"/>
+    <property name="user.dir" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;C:\Users\franc\.dotnet\tools;C:\intelFPGA_lite\22.1std\questa_fse\win64;C:\Users\franc\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.381-b09"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver2" time="0.006">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver2(CalculatorStackTest.java:696)
-</failure>
-    <system-out>over2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap5" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap5(CalculatorStackTest.java:662)
-</failure>
-    <system-out>swap5
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap4" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap4(CalculatorStackTest.java:648)
-</failure>
-    <system-out>swap4
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver3" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver3(CalculatorStackTest.java:709)
-</failure>
-    <system-out>over3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver1(CalculatorStackTest.java:681)
-</failure>
-    <system-out>over1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap3" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap3(CalculatorStackTest.java:631)
-</failure>
-    <system-out>swap3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup3" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup3(CalculatorStackTest.java:583)
-</failure>
-    <system-out>dup3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap1(CalculatorStackTest.java:603)
-</failure>
-    <system-out>swap1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup2(CalculatorStackTest.java:571)
-</failure>
-    <system-out>dup2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap2" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSwap2(CalculatorStackTest.java:617)
-</failure>
-    <system-out>swap2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator1(CalculatorStackTest.java:92)
-</failure>
-    <system-out>isUnaryOperator1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator2(CalculatorStackTest.java:103)
-</failure>
-    <system-out>isUnaryOperator2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator3" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsUnaryOperator3(CalculatorStackTest.java:114)
-</failure>
-    <system-out>isUnaryOperator3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola4" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola4(CalculatorStackTest.java:181)
-</failure>
-    <system-out>calcola4
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush1(CalculatorStackTest.java:243)
-</failure>
-    <system-out>push1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola1" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola1(CalculatorStackTest.java:131)
-</failure>
-    <system-out>calcola1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush3(CalculatorStackTest.java:272)
-</failure>
-    <system-out>push3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear1" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear1(CalculatorStackTest.java:461)
-</failure>
-    <system-out>clear1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola2(CalculatorStackTest.java:148)
-</failure>
-    <system-out>calcola2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek3(CalculatorStackTest.java:366)
-</failure>
-    <system-out>peek3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop2" time="0.223">
-    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;Eccezioni.StackVuotoException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==&gt; expected: &lt;Eccezioni.StackVuotoException&gt; but was: &lt;java.lang.NullPointerException&gt;
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:65)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop2(CalculatorStackTest.java:304)
-Caused by: java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.lambda$testPop2$3(CalculatorStackTest.java:305)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
-	... 21 more
-</failure>
-    <system-out>pop2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola5" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola5(CalculatorStackTest.java:197)
-</failure>
-    <system-out>calcola5
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop3(CalculatorStackTest.java:319)
-</failure>
-    <system-out>pop3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize2" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize2(CalculatorStackTest.java:394)
-</failure>
-    <system-out>size2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty2(CalculatorStackTest.java:432)
-</failure>
-    <system-out>empty2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek1(CalculatorStackTest.java:338)
-</failure>
-    <system-out>peek1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear2" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear2(CalculatorStackTest.java:472)
-</failure>
-    <system-out>clear2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPop1(CalculatorStackTest.java:291)
-</failure>
-    <system-out>pop1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola3(CalculatorStackTest.java:165)
-</failure>
-    <system-out>calcola3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testClear3(CalculatorStackTest.java:486)
-</failure>
-    <system-out>clear3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize1" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize1(CalculatorStackTest.java:383)
-</failure>
-    <system-out>size1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop1" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop1(CalculatorStackTest.java:505)
-</failure>
-    <system-out>drop1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop2(CalculatorStackTest.java:521)
-</failure>
-    <system-out>drop2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDrop3(CalculatorStackTest.java:536)
-</failure>
-    <system-out>drop3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup1" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testDup1(CalculatorStackTest.java:557)
-</failure>
-    <system-out>dup1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator3" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator3(CalculatorStackTest.java:78)
-</failure>
-    <system-out>isOperator3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPush2(CalculatorStackTest.java:258)
-</failure>
-    <system-out>push2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek2" time="0.003">
-    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;Eccezioni.StackVuotoException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==&gt; expected: &lt;Eccezioni.StackVuotoException&gt; but was: &lt;java.lang.NullPointerException&gt;
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:65)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testPeek2(CalculatorStackTest.java:351)
-Caused by: java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.lambda$testPeek2$4(CalculatorStackTest.java:352)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
-	... 21 more
-</failure>
-    <system-out>peek2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola6" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testCalcola6(CalculatorStackTest.java:218)
-</failure>
-    <system-out>calcola6
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize3" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testSize3(CalculatorStackTest.java:405)
-</failure>
-    <system-out>size3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty1(CalculatorStackTest.java:421)
-</failure>
-    <system-out>empty1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator1" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator1(CalculatorStackTest.java:56)
-</failure>
-    <system-out>isOperator1
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty3" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testEmpty3(CalculatorStackTest.java:443)
-</failure>
-    <system-out>empty3
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator2" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testIsOperator2(CalculatorStackTest.java:67)
-</failure>
-    <system-out>isOperator2
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver5" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver5(CalculatorStackTest.java:738)
-</failure>
-    <system-out>over5
-</system-out>
-  </testcase>
-  <testcase classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" name="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver4" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest.testOver4(CalculatorStackTest.java:724)
-</failure>
-    <system-out>over4
-</system-out>
-  </testcase>
+  <testcase name="testIsOperator1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.013"/>
+  <testcase name="testIsOperator2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testIsOperator3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testIsUnaryOperator1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testIsUnaryOperator2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testIsUnaryOperator3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testDrop1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.002"/>
+  <testcase name="testDrop2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testDrop3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testOver1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testOver2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testOver3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testOver4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testOver5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testPeek1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPeek2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.002"/>
+  <testcase name="testPeek3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPush1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.002"/>
+  <testcase name="testPush2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPush3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testSize1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testSize2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSize3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testSwap1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSwap2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testSwap3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSwap4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testSwap5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testDup1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testDup2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testDup3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPop1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testPop2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testPop3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testCalcola1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testCalcola2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testCalcola3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testCalcola4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testCalcola5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testCalcola6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testClear1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testClear2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testClear3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testEmpty1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
+  <testcase name="testEmpty2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0.001"/>
+  <testcase name="testEmpty3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorStackTest" time="0"/>
 </testsuite>
