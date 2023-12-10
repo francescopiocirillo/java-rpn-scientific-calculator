@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 /**
  * classe principale dell'applicativo realizzato, estende Application come
  * previsto da JavaFX
+ * @author Gruppo14
  */
 public class StackBasedCalculator extends Application {
 
@@ -17,7 +18,7 @@ public class StackBasedCalculator extends Application {
      * Controller e gli passa le reference alle due componenti sopra citate
      * vengono anche definiti dettagli quali l'icona dell'applicativo, la dimensione
      * della scena e il "titolo" dell'applicativo
-     * @param stage 
+     * @param stage parametro obbligatorio del metodo start
      */
     @Override
     public void start(Stage stage) {
@@ -44,7 +45,7 @@ public class StackBasedCalculator extends Application {
     /**
      * entry-point dell'applicativo, lancia il metodo launch() come previsto
      * da JavaFX
-     * @param args 
+     * @param args vettore dei parametri passabili da riga di comando
      */
     public static void main(String[] args) {
         launch();

@@ -120,7 +120,7 @@ public class StackCalculator {
     /**
      * Metodo per prelevare il valore di una variabile
      * @param variabile è l'indice che identifica la variabile nell'array,
-     * ad ogni numero corrisponde una lettera (0->a, 25->z)
+     * ad ogni numero corrisponde una lettera (0 a, 25 z)
      * @return il valore della variabile desiderata restituito da getVariable
      * di calculatorVariables
      */

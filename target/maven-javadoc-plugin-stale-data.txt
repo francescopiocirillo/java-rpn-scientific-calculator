@@ -1,56 +1,45 @@
 @options
 @packages
--classpath
-'C:/Users/apian/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11.jar;C:/Users/apian/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11-win.jar;C:/Users/apian/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar;C:/Users/apian/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar;C:/Users/apian/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11.jar;C:/Users/apian/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-win.jar'
 -encoding
 'UTF-8'
 -protected
 -source
 '1.8'
 -sourcepath
-'C:/Users/apian/OneDrive/Documenti/NetBeansProjects/Codici java/3-StackBasedCalculator_Gruppo14/src/main/java'
+'C:/Users/franc/Documents/NetBeansProjects/3-StackBasedCalculator_Gruppo14/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2023. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/apian/OneDrive/Documenti/NetBeansProjects/Codici java/3-StackBasedCalculator_Gruppo14/target/site/apidocs'
+'C:/Users/franc/Documents/NetBeansProjects/3-StackBasedCalculator_Gruppo14/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
 '3-StackBasedCalculator_Gruppo14 1.0-SNAPSHOT API'
 -linkoffline
-'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/apian/OneDrive/Documenti/NetBeansProjects/Codici java/3-StackBasedCalculator_Gruppo14/target/javadoc-bundle-options'
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/franc/Documents/NetBeansProjects/3-StackBasedCalculator_Gruppo14/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
 '3-StackBasedCalculator_Gruppo14 1.0-SNAPSHOT API'
 AH.gruppo14.stackbasedcalculator_gruppo14
 Eccezioni
-C:\Users\apian\.m2\repository\org\openjfx\javafx-controls\11\javafx-controls-11.jar = 1701256829990
-C:\Users\apian\.m2\repository\org\openjfx\javafx-controls\11\javafx-controls-11-win.jar = 1701256853814
-C:\Users\apian\.m2\repository\org\openjfx\javafx-graphics\11\javafx-graphics-11.jar = 1701256830181
-C:\Users\apian\.m2\repository\org\openjfx\javafx-graphics\11\javafx-graphics-11-win.jar = 1701256856966
-C:\Users\apian\.m2\repository\org\openjfx\javafx-base\11\javafx-base-11.jar = 1701256830150
-C:\Users\apian\.m2\repository\org\openjfx\javafx-base\11\javafx-base-11-win.jar = 1701256839458
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\src\main\java\module-info.java = 1701872795573
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\src\main\java = 1701872795573
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\allclasses-index.html = 1701874636644
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\allpackages-index.html = 1701874636648
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\element-list = 1701874636518
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\help-doc.html = 1701874636684
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\index-all.html = 1701874636674
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\index.html = 1701874636626
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\jquery-ui.overrides.css = 1701874636713
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\member-search-index.js = 1701874636655
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\module-search-index.js = 1701874636650
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\overview-summary.html = 1701874636677
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\overview-tree.html = 1701874636621
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\package-search-index.js = 1701874636651
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\script.js = 1701874636691
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\search.js = 1701874636695
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\serialized-form.html = 1701874636561
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\stylesheet.css = 1701874636688
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\tag-search-index.js = 1701874636656
-C:\Users\apian\OneDrive\Documenti\NetBeansProjects\Codici java\3-StackBasedCalculator_Gruppo14\target\site\apidocs\type-search-index.js = 1701874636652
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\src\main\java\module-info.java = 1701862957711
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\src\main\java = 1701862957711
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\allclasses-frame.html = 1702236050372
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\allclasses-noframe.html = 1702236050374
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\constant-values.html = 1702236050266
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\deprecated-list.html = 1702236050369
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\help-doc.html = 1702236050384
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\index-all.html = 1702236050363
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\index.html = 1702236050376
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\javadoc.bat = 1702235877664
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\overview-frame.html = 1702236050235
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\overview-summary.html = 1702236050380
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\overview-tree.html = 1702236050350
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\package-list = 1702236050232
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\script.js = 1702236050385
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\serialized-form.html = 1702236050274
+C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\site\apidocs\stylesheet.css = 1702235482269

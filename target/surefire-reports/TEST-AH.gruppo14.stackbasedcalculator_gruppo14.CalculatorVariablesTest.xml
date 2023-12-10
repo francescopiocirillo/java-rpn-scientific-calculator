@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar C:\Users\franc\AppData\Local\Temp\surefire461056096107225613 2023-12-10T20-05-57_410-jvmRun1 surefire324212904152902695tmp surefire_03769651989279775404tmp"/>
+    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185 2023-12-10T20-22-34_626-jvmRun1 surefire3017652708260578475tmp surefire_05975751663763805938tmp"/>
     <property name="test" value="AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test"/>
     <property name="surefire.test.class.path" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\test-classes;C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\classes;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -65,7 +65,7 @@
   </properties>
   <testcase name="testSetVariable1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>
   <testcase name="testSetVariable2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>
-  <testcase name="testAddVariable1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0.001"/>
+  <testcase name="testAddVariable1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>
   <testcase name="testAddVariable2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>
   <testcase name="testGetVariable1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>
   <testcase name="testGetVariable2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.CalculatorVariablesTest" time="0"/>

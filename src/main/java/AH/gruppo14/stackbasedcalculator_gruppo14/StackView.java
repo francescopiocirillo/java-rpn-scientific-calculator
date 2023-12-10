@@ -43,7 +43,7 @@ public class StackView extends HBox {
     /**
      * Questo metodo serve ad aggiornare la view dello stack sull'interfaccia,
      * prima svuota la lista poi la riempie con lo stack aggiornato.
-     * @param stack
+     * @param stack lo stack i cui elementi vanno inseriti nella view
      */
     public final void updateListView(Stack<String> stack) {
         listView.getItems().clear();

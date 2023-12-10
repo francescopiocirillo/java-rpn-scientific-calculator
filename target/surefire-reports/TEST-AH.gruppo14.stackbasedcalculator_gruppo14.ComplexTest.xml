@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.02" tests="61" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.022" tests="61" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar C:\Users\franc\AppData\Local\Temp\surefire461056096107225613 2023-12-10T20-05-57_410-jvmRun1 surefire324212904152902695tmp surefire_03769651989279775404tmp"/>
+    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185 2023-12-10T20-22-34_626-jvmRun1 surefire3017652708260578475tmp surefire_05975751663763805938tmp"/>
     <property name="test" value="AH.gruppo14.stackbasedcalculator_gruppo14.**.*Test"/>
     <property name="surefire.test.class.path" value="C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\test-classes;C:\Users\franc\Documents\NetBeansProjects\3-StackBasedCalculator_Gruppo14\target\classes;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire461056096107225613\surefirebooter690317521760855428.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire3992280536787290185\surefirebooter1915600386355561388.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -71,7 +71,7 @@
   <testcase name="testEquals6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testEquals7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testEquals8" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testEquals9" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testEquals9" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testProdotto1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testProdotto2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testProdotto3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
@@ -82,46 +82,46 @@
   <testcase name="testInvertiSegno2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testInvertiSegno3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testInvertiSegno4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testParseComplex1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testParseComplex1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testParseComplex2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testParseComplex3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testParseComplex3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testParseComplex4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testParseComplex5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testParseComplex5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testParseComplex6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testParseComplex7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testRadice1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testRadice2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testRadice3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testRadice4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testRadice4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSottrazione1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSottrazione2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSottrazione3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSottrazione4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
   <testcase name="testSottrazione5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testSottrazione6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testSottrazione6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSottrazione7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testEquals10" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testEquals11" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testToString1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testToString2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testToString2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testToString3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testToString4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testToString4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testToString5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testToString6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
   <testcase name="testToString7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testToString8" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testToString8" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
   <testcase name="testSomma1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSomma2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSomma3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testSomma4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
-  <testcase name="testSomma5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testSomma4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testSomma5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
   <testcase name="testSomma6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testSomma7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
   <testcase name="testDivisione1" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testDivisione2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
-  <testcase name="testDivisione3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testDivisione2" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testDivisione3" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
   <testcase name="testDivisione4" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testDivisione5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
-  <testcase name="testDivisione6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
-  <testcase name="testDivisione7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.001"/>
+  <testcase name="testDivisione5" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
+  <testcase name="testDivisione6" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0.005"/>
+  <testcase name="testDivisione7" classname="AH.gruppo14.stackbasedcalculator_gruppo14.ComplexTest" time="0"/>
 </testsuite>

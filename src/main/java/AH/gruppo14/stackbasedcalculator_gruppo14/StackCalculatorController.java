@@ -17,7 +17,7 @@ import Eccezioni.TopElementInvalidException;
 
 /**
  * Questa classe è il Controller dell'applicazione.
- * @author franc
+ * @author Gruppo14
  */
 public class StackCalculatorController {
     
@@ -48,7 +48,7 @@ public class StackCalculatorController {
      * Il costruttore del Controller prende come parametri il Model e la View.
      * Vengono inoltre chiamati i metodi per inizializzare il tastierino numerico,
      * le operazioni sullo stack e le operazioni di base e i bindings.
-     * @param calculator è il Model.
+     * @param stackCalculator è il Model.
      * @param stackCalculatorView è la View.
      */    
     public StackCalculatorController( StackCalculator stackCalculator, StackCalculatorView stackCalculatorView ) {
