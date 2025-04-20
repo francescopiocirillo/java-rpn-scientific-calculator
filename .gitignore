@@ -22,3 +22,33 @@
 hs_err_pid*
 replay_pid*
 /nbproject/
+
+# Cartelle generate automaticamente da Maven
+/target/
+
+# File del progetto IntelliJ o VS Code
+.vscode/
+.idea/
+
+# File temporanei del sistema operativo
+.DS_Store
+Thumbs.db
+
+# File di log
+*.log
+
+# File JAR generati
+*.jar
+
+# File di build di NetBeans (se usato)
+nbactions.xml
+nb-configuration.xml
+
+# File di backup o temporanei dell'IDE
+*~
+*.swp
+*.bak
+*.tmp
+
+# File specifici di test o compilazione automatica
+/test-output/
