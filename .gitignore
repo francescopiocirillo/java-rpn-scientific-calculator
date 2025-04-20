@@ -24,7 +24,8 @@ replay_pid*
 /nbproject/
 
 # Cartelle generate automaticamente da Maven
-/target/
+/target/*
+!/target/classes/AH/gruppo14/stackbasedcalculator_gruppo14/CalculatorIcon.png
 
 # File del progetto IntelliJ o VS Code
 .vscode/
