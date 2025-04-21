@@ -1,5 +1,5 @@
-🧮 StackBasedCalculator – Java Scientific RPN Calculator with Stack Operations
-==============================================================================
+🧮 Java RPN Scientific Calculator with Stack Operations
+========================================================
 
 > 🚀 A fully functional scientific calculator using Stack-Based Reverse Polish Notation, built in Java, designed with Waterfall methodology, and developed in a collaborative software engineering environment as part of a university project.
 
