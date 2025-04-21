@@ -123,9 +123,9 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 1. ✅ **Requirements Analysis**
     
-2. 📐 **Design using UML**
+2. 📅 **Gantt Chart Planning**
     
-3. 📅 **Gantt Chart Planning**
+3. 📐 **Design using UML**
     
 4. 💻 **Development in Java**
     
