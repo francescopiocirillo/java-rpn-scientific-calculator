@@ -89,7 +89,7 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 💻 User Interface Snapshot
 ---------------------------
-![image](https://github.com/user-attachments/assets/60d62f8d-b1a0-465e-86a5-b9ccb49a4d8a)
+![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
 
 
 🧱 Project Structure
