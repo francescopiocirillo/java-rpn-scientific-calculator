@@ -97,6 +97,12 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 ```
 📦 StackBasedCalculator
+├── 📁 docs
+│   ├── 1 - Requirements Elicitation and Analysis.pdf
+│   ├── 2 - Use Case.pdf
+│   ├── 3 - Activity Diagram.pdf
+│   ├── 4 - Class Diagram.pdf
+│   └── 5 - User Manual.pdf
 ├── 📁 resources/fonts
 │   ├── Calculator.ttf
 │   └── LEDCalculator.ttf
