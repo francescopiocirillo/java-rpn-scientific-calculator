@@ -1,40 +1,192 @@
+🧮 StackBasedCalculator – Java Scientific RPN Calculator with Stack Operations
+==============================================================================
 
-# 🧮 Calcolatrice Scientifica basata su Stack
+> 🚀 A fully functional scientific calculator using Stack-Based Reverse Polish Notation, built in Java, designed with Waterfall methodology, and developed in a collaborative software engineering environment as part of a university project.
 
-Progetto Java di una Calcolatrice Scientifica basata su Stack da realizzare per l'esame di Ingegneria del Software della terzo anno di Ingegneria Informatica presso l'Università degli Studi di Salerno.
+* * *
 
-## 💽 About the Project
-Il Progetto prevede la realizzazione di una Calcolatrice Scientifica basata sullo Stack che offra, oltre alle operazioni di base di una calcolatrice, anche operazioni speciali sullo Stack e la possibilità di conservare valori in variabili.
-## 💥 Features
+📌 Overview
+-----------
 
-- interfaccia grafica
-- supporto ai numeri complessi
-- operazioni aritmetiche di base
-- clear→rimuove tutti gli elementi dello stack
-- drop→rimuove l’ultimo elemento, il top dello stack
-- dup→fa la push di una copia dell’ultimo elemento dello stack
-- swap→scambia gli ultimi due elementi dello stack
-- over→fa la push di una copia del penultimo elemento dello stack
-- 26 variabili nominate dalla a alla z per la memorizzazione di dati utilizzabili per svolgere operazioni
-- ">x" per fare la load in x del top element dello stack
-- "<x" per fare la store nello stack di x
-- "+x" per salvare in x il valore di "top element dello stack + x"
-- "-x" per salvare in x il valore di "top element dello stack - x"
-## ⚙️ Built With
+**StackBasedCalculator** is a fully-featured **Reverse Polish Notation (RPN)** scientific calculator developed as part of a team project for a university Software Engineering course. Built with Java and the **Waterfall development model**, this project demonstrates modular architecture, collaborative coding, and extensive testing.
 
-* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-* ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
-* ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-* ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+### 📁 Project Highlights
 
-**Testing effettuato con l'ausilio di JUnit**
+* ✅ RPN (postfix) input processing
+    
+* 🧠 Stack-based operations and memory
+    
+* 🎨 GUI interface with calculator-like appearance
+    
+* 🧪 JUnit test suite for core components
+    
+* 📊 UML & Gantt-based planning
+    
+* 📌 Developed in a simulated real-world environment
+    
 
-## 🚀 About Me
-Siamo il Gruppo 14 dell'esame di Ingegneria del Software del terzo anno di Ingegneria Informatica presso l'Università degli Studi di Salerno.
+* * *
 
-Componenti:
-- [@apiantonio](https://github.com/apiantonio)
-- [@BeneCelano](https://github.com/BeneCelano)
-- [@francescopiocirillo](https://github.com/francescopiocirillo) (**leader**)
-- [@alefaso-lucky](https://github.com/alefaso-lucky)
+💡 Features
+-----------
+
+### 🔢 Stack Operations
+
+* `clear` – remove all elements
+    
+* `drop` – remove top element
+    
+* `dup` – duplicate top element
+    
+* `swap` – swap top two elements
+    
+* `over` – duplicate second-to-top element
+    
+
+### ➕ Arithmetic & Variables
+
+* Basic operations: `+`, `-`, `*`, `/`
+    
+* 26 memory variables: `a` through `z`
+    
+    * `>x` – Load top of stack into variable `x`
+        
+    * `<x` – Push value from variable `x` onto the stack
+        
+    * `+x`, `-x` – Perform arithmetic with variable `x` and top of stack
+        
+
+### 🧮 Advanced Capabilities
+
+* Complex number support
+    
+* Rich exception handling (stack underflow, invalid operations, etc.)
+    
+* GUI with custom calculator fonts
+    
+
+* * *
+
+🧪 Testing
+----------
+
+Comprehensive **unit testing** was performed using **JUnit**, ensuring correctness of:
+
+* Stack operations
+    
+* Variable manipulation
+    
+* Complex number calculations
+    
+
+Test classes are located in:
+
+```
+test/java/AH/gruppo14/stackbasedcalculator/
+```
+
+* * *
+
+🧱 Project Structure
+--------------------
+
+```
+📦 StackBasedCalculator
+├── 📁 resources/fonts
+│   ├── Calculator.ttf
+│   └── LEDCalculator.ttf
+├── 📁 src/main/java
+│   └── AH/gruppo14/stackbasedcalculator/
+│       ├── BaseView.java, Buttons.java, CalculatorView.java
+│       ├── StackCalculator.java, StackBasedCalculator.java
+│       ├── StackCalculatorController.java
+│       ├── CalculatorStack.java, CalculatorVariables.java, Complex.java
+│       ├── StackView.java, VariablesView.java, SystemInfo.java
+│       ├── 📁 Eccezioni (Custom Exceptions)
+│           ├── StackVuotoException.java, StackPienoException.java, etc.
+├── 📁 test/java/AH/gruppo14/stackbasedcalculator/
+│   ├── CalculatorStackTest.java, ComplexTest.java, etc.
+├── pom.xml, .gitignore, README.md
+```
+
+* * *
+
+🧠 Development Process
+----------------------
+
+> Developed over 2 months, this project followed a strict **Waterfall model**, simulating a professional software lifecycle.
+
+1. ✅ **Requirements Analysis**
+    
+2. 📐 **Design using UML**
+    
+3. 📅 **Gantt Chart Planning**
+    
+4. 💻 **Development in Java**
+    
+5. 🧪 **JUnit Testing**
+    
+6. 🚀 **Final Release and Live Demo**
+    
+
+> All milestones and deadlines were met — reflecting a real-world agile workflow within an academic structure.
+
+* * *
+
+🌍 Language Note
+----------------
+
+All **code comments and internal documentation** are written in **Italian**, as the project was developed during a group exam at the **University of Salerno (Italy)**.
+
+Despite this, the **codebase follows international best practices**, with clear method names and class structures that make it easily understandable for global developers and recruiters.
+
+* * *
+
+👥 Team 14 – University of Salerno
+----------------------------------
+
+* [@apiantonio](https://github.com/apiantonio)
+    
+* [@BeneCelano](https://github.com/BeneCelano)
+    
+* [@francescopiocirillo](https://github.com/francescopiocirillo) (👑 Team Lead)
+    
+* [@alefaso-lucky](https://github.com/alefaso-lucky)
+    
+
+* * *
+
+📈 SEO Tags
+-----------
+
+```
+java rpn calculator, reverse polish notation java, stack based calculator,
+scientific calculator java, java postfix calculator, java gui calculator,
+university software engineering project, waterfall model java,
+rpn calculator github, calculator with stack java
+```
+
+* * *
+
+🚀 Getting Started
+------------------
+
+1. Clone the repo
+    
+    ```bash
+    git clone https://github.com/yourusername/StackBasedCalculator.git
+    ```
+    
+2. Open in your preferred IDE (NetBeans, VS Code, IntelliJ)
+    
+3. Run `DummyMain.java` to launch the application
+    
+
+* * *
+
+📄 License
+----------
+
+This project is licensed under the **MIT License**, a permissive open-source license that allows anyone to use, modify, and distribute the software freely — as long as credit is given and the original license is included.
+
+> In plain terms: **use it, build on it, just don’t blame us if something breaks**.
