@@ -76,6 +76,28 @@ Despite this, the **codebase follows international best practices**, with clear 
 
 * * *
 
+🧠 Development Process
+----------------------
+
+> Developed over 2 months, this project followed a strict **Waterfall model**, simulating a professional software lifecycle.
+
+1. ✅ **Requirements Analysis**
+    
+2. 📅 **Gantt Chart Planning**
+    
+3. 📐 **Design using UML**
+    
+4. 💻 **Development in Java**
+    
+5. 🧪 **JUnit Testing**
+    
+6. 🚀 **Final Release and Live Demo**
+    
+
+> All milestones and deadlines were met — reflecting a real-world agile workflow within an academic structure.
+
+* * *
+
 🧪 Testing
 ----------
 
@@ -95,11 +117,6 @@ test/java/AH/gruppo14/stackbasedcalculator/
 ```
 
 * * *
-
-💻 User Interface Snapshot
----------------------------
-![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
-
 
 🧱 Project Structure
 --------------------
@@ -131,25 +148,9 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 * * *
 
-🧠 Development Process
-----------------------
-
-> Developed over 2 months, this project followed a strict **Waterfall model**, simulating a professional software lifecycle.
-
-1. ✅ **Requirements Analysis**
-    
-2. 📅 **Gantt Chart Planning**
-    
-3. 📐 **Design using UML**
-    
-4. 💻 **Development in Java**
-    
-5. 🧪 **JUnit Testing**
-    
-6. 🚀 **Final Release and Live Demo**
-    
-
-> All milestones and deadlines were met — reflecting a real-world agile workflow within an academic structure.
+💻 User Interface Snapshot
+---------------------------
+![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
 
 * * *
 
@@ -164,7 +165,6 @@ test/java/AH/gruppo14/stackbasedcalculator/
     
 * [@alefaso-lucky](https://github.com/alefaso-lucky)
     
-
 * * *
 
 📈 SEO Tags
