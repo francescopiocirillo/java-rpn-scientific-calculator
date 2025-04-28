@@ -27,6 +27,15 @@
 
 * * *
 
+🌍 Language Note
+----------------
+
+All **code comments and internal documentation** are written in **Italian**, as the project was developed during a group exam at the **University of Salerno (Italy)**.
+
+Despite this, the **codebase follows international best practices**, with clear method names and class structures that make it easily understandable for global developers and recruiters.
+
+* * *
+
 💡 Features
 -----------
 
@@ -144,15 +153,6 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 * * *
 
-🌍 Language Note
-----------------
-
-All **code comments and internal documentation** are written in **Italian**, as the project was developed during a group exam at the **University of Salerno (Italy)**.
-
-Despite this, the **codebase follows international best practices**, with clear method names and class structures that make it easily understandable for global developers and recruiters.
-
-* * *
-
 👥 Team 14 – University of Salerno
 ----------------------------------
 
@@ -160,7 +160,7 @@ Despite this, the **codebase follows international best practices**, with clear 
     
 * [@BeneCelano](https://github.com/BeneCelano)
     
-* [@francescopiocirillo](https://github.com/francescopiocirillo) (👑 Team Lead)
+* [@francescopiocirillo](https://github.com/francescopiocirillo) (👑 Team Leader)
     
 * [@alefaso-lucky](https://github.com/alefaso-lucky)
     
