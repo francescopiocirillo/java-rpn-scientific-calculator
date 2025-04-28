@@ -201,3 +201,7 @@ rpn calculator github, calculator with stack java
 This project is licensed under the **MIT License**, a permissive open-source license that allows anyone to use, modify, and distribute the software freely — as long as credit is given and the original license is included.
 
 > In plain terms: **use it, build on it, just don’t blame us if something breaks**.
+
+> ⭐ Like what you see? Consider giving the project a star!
+
+* * *
