@@ -139,11 +139,11 @@ test/java/AH/gruppo14/stackbasedcalculator/
 │       ├── StackCalculatorController.java
 │       ├── CalculatorStack.java, CalculatorVariables.java, Complex.java
 │       ├── StackView.java, VariablesView.java, SystemInfo.java
-│       ├── 📁 Eccezioni (Custom Exceptions)
-│           ├── StackVuotoException.java, StackPienoException.java, etc.
+│       └── 📁 Eccezioni (Custom Exceptions)
+│           └── StackVuotoException.java, StackPienoException.java, etc.
 ├── 📁 test/java/AH/gruppo14/stackbasedcalculator/
-│   ├── CalculatorStackTest.java, ComplexTest.java, etc.
-├── pom.xml, .gitignore, README.md
+│   └── CalculatorStackTest.java, ComplexTest.java, etc.
+└── pom.xml, .gitignore, README.md
 ```
 
 * * *
