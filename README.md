@@ -118,6 +118,24 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 * * *
 
+📋 Documentation
+----------------
+
+You can find documentation and technical reports inside the `docs/` folder, including:
+
+* **Requirements Elicitation and Analysis Report**: Contains the process of gathering and analyzing the project requirements, outlining the needs and expectations of stakeholders.
+    
+* **Use Case Diagrams**: Describe specific scenarios in which the system will be used, detailing how users interact with the system to achieve a goal.
+    
+* **Activity Diagrams**: Represent workflows and processes within the system, showing the sequence of activities and decision points.
+    
+* **Class Diagram**: Illustrates the system’s structure, highlighting classes, attributes, methods, and the relationships between different entities in the system.
+    
+* **User Manual**: Provides instructions and guidance for end-users on how to operate and interact with the system effectively.
+    
+
+* * *
+
 🧱 Project Structure
 --------------------
 
@@ -148,7 +166,7 @@ test/java/AH/gruppo14/stackbasedcalculator/
 
 * * *
 
-💻 User Interface Snapshot
+📸 User Interface Snapshot
 ---------------------------
 ![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
 
@@ -167,19 +185,8 @@ test/java/AH/gruppo14/stackbasedcalculator/
     
 * * *
 
-📈 SEO Tags
------------
 
-```
-java rpn calculator, reverse polish notation java, stack based calculator,
-scientific calculator java, java postfix calculator, java gui calculator,
-university software engineering project, waterfall model java,
-rpn calculator github, calculator with stack java
-```
-
-* * *
-
-🚀 Getting Started
+🚀 How to Run Locally
 ------------------
 
 1. Clone the repo
@@ -192,6 +199,23 @@ rpn calculator github, calculator with stack java
     
 3. Run `DummyMain.java` to launch the application
     
+
+* * *
+
+📬 Contacts
+-----------
+
+✉️ For questions or suggestions, feel free to contribute or report any corrections! Open an **Issue**!🚀
+
+* * *
+
+📈 SEO Tags
+-----------
+
+```
+Java RPN Calculator, Reverse Polish Notation Calculator, Stack-based Calculator Java, Java Scientific Calculator, RPN Scientific Calculator, Stack operations calculator, Waterfall methodology software, Collaborative Java project, JUnit testing in Java, UML design in Java, Stack-based calculator features, Java complex number calculator, GUI scientific calculator Java, RPN calculator with variables, Java programming university project, University of Salerno Java project, Stack-based architecture, Calculator with memory variables, Exception handling in Java, Postfix calculator Java, Calculator development team project, Software engineering Java project, Open-source scientific calculator, Java programming for beginners, Java unit testing, StackVuotoException Java, Java StackOverflowException handling, Reverse Polish Notation stack operations, RPN calculator GUI interface, Java Waterfall methodology project, Collaborative coding Java, Java StackCalculator project, University project with UML and Gantt
+
+```
 
 * * *
 
