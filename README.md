@@ -192,7 +192,7 @@ You can find documentation and technical reports inside the `docs/` folder, incl
 1. Clone the repo
     
     ```bash
-    git clone https://github.com/yourusername/StackBasedCalculator.git
+    git clone https://github.com/francescopiocirillo/java-rpn-scientific-calculator.git
     ```
     
 2. Open in your preferred IDE (NetBeans, VS Code, IntelliJ)
