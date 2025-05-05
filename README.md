@@ -198,6 +198,11 @@ You can find documentation and technical reports inside the `docs/` folder, incl
 2. Open in your preferred IDE (NetBeans, VS Code, IntelliJ)
     
 3. Run `DummyMain.java` to launch the application
+
+### 🧩 Development Environment
+
+- ☕ Java version: **23.0.1**
+- 🎭 JavaFX SDK version: **24.0.1**
     
 
 * * *
