@@ -94,7 +94,7 @@ Despite this, the **codebase follows international best practices**, with clear 
 6. 🚀 **Final Release and Live Demo**
     
 
-> All milestones and deadlines were met — reflecting a real-world agile workflow within an academic structure.
+> All milestones and deadlines were met, reflecting a real-world agile workflow within an academic structure.
 
 * * *
 
@@ -227,7 +227,7 @@ Java RPN Calculator, Reverse Polish Notation Calculator, Stack-based Calculator 
 📄 License
 ----------
 
-This project is licensed under the **MIT License**, a permissive open-source license that allows anyone to use, modify, and distribute the software freely — as long as credit is given and the original license is included.
+This project is licensed under the **MIT License**, a permissive open-source license that allows anyone to use, modify, and distribute the software freely, as long as credit is given and the original license is included.
 
 > In plain terms: **use it, build on it, just don’t blame us if something breaks**.
 
