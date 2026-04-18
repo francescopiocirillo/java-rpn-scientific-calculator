@@ -7,6 +7,12 @@
 
 * * *
 
+📸 User Interface Snapshot
+---------------------------
+![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
+
+* * *
+
 📌 Overview
 -----------
 
@@ -165,12 +171,6 @@ You can find documentation and technical reports inside the `docs/` folder, incl
 │   └── CalculatorStackTest.java, ComplexTest.java, etc.
 └── pom.xml, .gitignore, README.md
 ```
-
-* * *
-
-📸 User Interface Snapshot
----------------------------
-![image](https://github.com/user-attachments/assets/aa89e965-6643-4241-91af-8de651fe25b8)
 
 * * *
 
